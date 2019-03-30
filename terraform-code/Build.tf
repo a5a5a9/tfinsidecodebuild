@@ -66,8 +66,10 @@ variable "ec2role" {
   default = "aviatrix-role-ec2"
 }
 
+/* This will be done by the script in the buildspec.yml
 
 terraform {
+
   backend "s3" {
     encrypt = true
     bucket = "avtrx-state"
@@ -80,7 +82,7 @@ terraform {
     }
 }
 
-
+*/
 
 provider "aws" {
   access_key = "${var.aws_access_key}"
