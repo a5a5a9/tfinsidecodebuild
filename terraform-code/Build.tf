@@ -41,12 +41,12 @@ variable "access_account_name" {
 }
 
 variable "admin_email" {
-  default = "adal.andrade@teradata.com"
+  default = ""
 }
 
 /* the new admin password */
 variable "admin_password" {
-  default = "T3r@D@t@2019"
+  default = ""
 }
 
 /* Start Variables for Aviatrix-Controller-Build */
@@ -76,8 +76,8 @@ terraform {
     dynamodb_table = "my-avtrx-lock-table"
     region = "us-east-1"
     key = "terraform.state"
-    access_key = "AKIAJEY6VVM75KKLULRA"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
 
     }
 }
