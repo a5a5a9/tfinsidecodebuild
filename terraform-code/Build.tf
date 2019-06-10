@@ -1,11 +1,11 @@
 
 variable "aws_access_key" {
     type = "string"
-     default = "AKIAJEY6VVM75KKLULRA"
+     default = ""
 }
 variable "aws_secret_key" {
     type = "string"
-    default = "JMgmyFm0C8oWsEvGAqt+a5uecyIaLCiVMwzU8kiq"
+    default = ""
 }
 
 /* Start variables for vpc-build-config */
